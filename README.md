@@ -7,7 +7,6 @@
 In this blog, we’ll explore the process of fine-tuning the Llama 3.1 model using the Unsloth library, emphasizing Low-Rank Adaptation (LoRA) techniques as part of Parameter-Efficient Fine-Tuning (PEFT). Unsloth provides quantized models in 4-bit precision, ensuring memory efficiency while maximizing performance. We’ll be using the ‘unsloth/Meta-Llama-3.1–8B-bnb-4bit’ model alongside the Custom dataset. By the end of this guide, you’ll gain a comprehensive understanding of how to fine-tune models effectively, even with limited resources.
 
 ## Let’s Get Started!
-Let’s get started!
 
 ## Background
 Before we dive into the exciting implementation, let’s explore some essential concepts related to large language models and their fine-tuning processes. Grasping these fundamentals will empower you to make the most of the Llama 3.1 model and the Unsloth library. Get ready to unlock the full potential of your fine-tuning journey!
