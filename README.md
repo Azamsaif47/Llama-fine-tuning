@@ -76,7 +76,7 @@ model, tokenizer = FastLanguageModel.from_pretrained(
     max_seq_length = max_seq_length,
     dtype = dtype,
     load_in_4bit = load_in_4bit,
-    token = "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",
+    token = "hf_token",
 )
 Max length : Refers to the input token size for the model. In this case, it is set to 2048.
 Dtype : Specifies the data type of the model’s tensor. Setting it to “None” defaults to “torch.float32”.
