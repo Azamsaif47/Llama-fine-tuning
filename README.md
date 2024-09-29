@@ -269,7 +269,7 @@ dataset = train_dataset.map(formatting_prompts_func, batched=True)
 print(dataset['text'][:2])
 ```
 
-- **alpaca_prompt**: The “alpaca_prompt” string is a template for formatting prompts with instructions, inputs, and responses.
+- **alpaca_prompt**: The `alpaca_prompt` string is a template for formatting prompts with instructions, inputs, and responses.
 - **formatting_prompts_func**: This function processes examples by filling the “alpaca_prompt” template with values from the dataset and appending an `EOS_TOKEN`.
 - **train_dataset**: This is converted into a Hugging Face Dataset, and `formatting_prompts_func` is applied to format the data.
 
@@ -346,7 +346,7 @@ tokenizer.push_to_hub("Azamsaif8757/FineTune-Llama-3.1-8B", use_auth_token=token
 
 - **Model and tokenizer saving**: The code saves the model and tokenizer to a local directory.
 - **Loading LoRA head**: It loads a LoRA head using “PeftModel.from_pretrained()” from a specified path.
-- **Pushing to Hugging Face Hub**: Finally, the combined model and tokenizer are pushed to the Hugging Face Hub using the “push_to_hub()” method with authentication.
+- **Pushing to Hugging Face Hub**: Finally, the combined model and tokenizer are pushed to the Hugging Face Hub using the `push_to_hub()` method with authentication.
 
 
 ## Conclusion :
